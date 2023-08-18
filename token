@@ -1,0 +1,32 @@
+// create a contract 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8;
+
+string name;
+uint circulatingSupply ;
+ 
+
+mapping (address => bool) public allowList;
+mapping (address => uint )balance ;
+
+function getToken (uint amount) public 
+if (allowList[msg.sender]== true)
+balance[msg.sender]=amout;
+
+
+
+
+// contract created
+contract token {
+
+string myToken; 
+uint256 totalToken;
+
+
+mapping (address => mapping (address => uint256))public ;
+function() {
+
+}
+
+
+}
